@@ -14,18 +14,18 @@ export default function Home() {
         <label className="text-gray-400">Recentes</label>
 
         <Notification.Root>
-          <Notification.Icon icon={Bell} />
-          <Notification.Content>
+          <Notification.NotificationIcon icon={Bell} />
+          <Notification.NotificationContent>
             Seja muito Bem vindo a Postall Log
-          </Notification.Content>
+          </Notification.NotificationContent>
 
           <Notification.ActionsButton>
             <Notification.ActionButton onClick={() => console.log("cancel")}>
-              <Notification.Icon icon={X} />
+              <Notification.NotificationIcon icon={X} />
             </Notification.ActionButton>
 
             <Notification.ActionButton onClick={() => console.log("confirm")}>
-              <Notification.Icon icon={Check} />
+              <Notification.NotificationIcon icon={Check} />
             </Notification.ActionButton>
           </Notification.ActionsButton>
         </Notification.Root>

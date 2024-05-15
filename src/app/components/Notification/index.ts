@@ -1,13 +1,13 @@
-import { Icon } from "./Icon";
+import { NotificationIcon } from "./NotificationIcon";
 import { ActionButton } from "./ActionButton";
 import { ActionsButton } from "./ActionsButton";
 import { Root } from "./Root";
-import { Content } from "./Content";
+import { NotificationContent } from "./NotificationContent";
 
 export const Notification = {
-  Icon,
+  NotificationIcon,
   ActionButton,
   ActionsButton,
   Root,
-  Content,
+  NotificationContent,
 };
