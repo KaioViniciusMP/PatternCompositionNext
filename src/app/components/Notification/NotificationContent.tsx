@@ -2,6 +2,6 @@ interface ContentProps {
     children: string;
 }
 
-export function Content({ children }: ContentProps) {
+export function NotificationContent({ children }: ContentProps) {
     return <div>{children}</div>;
 }
