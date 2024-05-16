@@ -13,7 +13,7 @@ import NavbarIcon from "./components/Navbar/NavbarIcon";
 export default function Home() {
   return (
     <div className=" bg-slate-900 w-full h-screen">
-      <header className="flex bg-black h-14 justify-between p-4">
+      {/* <header className="flex bg-black h-14 justify-between p-4">
         <div>
           <h3 className="text-white font-bold">NEXT JS</h3>
         </div>
@@ -26,19 +26,31 @@ export default function Home() {
         <div>
           <h3 className="text-white font-bold">NEXT JS</h3>
         </div>
-      </header>
+      </header> */}
 
       <NavbarRoot>
-        <NavbarIcon icon={Check}/>
+        <NavbarIcon icon={Check} />
         <NavbarActionsLinks>
-          <NavbarActionLink text="Home"/>
-          <NavbarActionLink text="Services"/>
-          <NavbarActionLink text="About"/>
-          <NavbarActionLink text="Contact"/>
+          <NavbarActionLink text="Home" href="https://www.youtube.com/"/>
+          <NavbarActionLink text="Services" />
+          <NavbarActionLink text="About" />
+          <NavbarActionLink text="Contact" />
         </NavbarActionsLinks>
-        <NavbarIconText text="NEXT JS"/>
+        <NavbarIconText text="NEXT JS" />
       </NavbarRoot>
-      
+
+      <div className=" w-full h-96 items-center justify-center flex">
+        <div className="w-3/5 h-5/6 bg-black items-center justify-center flex">
+          <h2 className="text-white">O video vai aqui</h2>
+        </div>
+      </div>
+
+      <div className="w-full h-96 items-center justify-center flex">
+        <p>teste</p>
+        <p>teste</p>
+      </div>
+
+
       {/* <div className="bg-black w-80 rounded-ee">
           <Widget/>
       </div> */}
