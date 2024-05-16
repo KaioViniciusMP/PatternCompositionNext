@@ -31,7 +31,7 @@ export default function Home() {
       <NavbarRoot>
         <NavbarIcon icon={Check} />
         <NavbarActionsLinks>
-          <NavbarActionLink text="Home" href="https://www.youtube.com/"/>
+          <NavbarActionLink text="Home" href="https://www.youtube.com/" />
           <NavbarActionLink text="Services" />
           <NavbarActionLink text="About" />
           <NavbarActionLink text="Contact" />
@@ -45,9 +45,37 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full h-96 items-center justify-center flex">
+      <div className="bg-slate-700 w-full h-96 items-center justify-center flex">
         <p>teste</p>
         <p>teste</p>
+      </div>
+
+      <div className="bg-slate-900 w-full h-96 items-center justify-center flex">
+        <p>teste</p>
+        <p>teste</p>
+      </div>
+
+      <div className="bg-slate-700 w-full h-96 items-center justify-center flex">
+        <p>teste</p>
+        <p>teste</p>
+      </div>
+      <div className="bg-slate-800 opacity-80 w-full h-80 gap-10 justify-center flex p-20">
+        <div>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+          <p className="mt-1 text-white text-xs">Lorem ipsum dolor sit amet.</p>
+        </div>
+        
       </div>
 
 
