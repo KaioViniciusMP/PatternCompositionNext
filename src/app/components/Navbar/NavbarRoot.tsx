@@ -6,7 +6,7 @@ interface NavbarRootProps{
 
 export default function NavbarRoot({children}: NavbarRootProps) {
     return (
-        <header className="flex bg-slate-900 h-14 justify-between p-4">
+        <header className="flex items-center bg-black h-14 justify-between p-4">
             {children}
         </header>
     )

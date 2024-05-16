@@ -12,8 +12,8 @@ import NavbarIcon from "./components/Navbar/NavbarIcon";
 
 export default function Home() {
   return (
-    <>
-      <header className="flex bg-slate-900 h-14 justify-between p-4">
+    <div className=" bg-slate-900 w-full h-screen">
+      <header className="flex bg-black h-14 justify-between p-4">
         <div>
           <h3 className="text-white font-bold">NEXT JS</h3>
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
       </header>
 
       <NavbarRoot>
-        <NavbarIconText text="NEXT JS"/>
+        <NavbarIcon icon={Check}/>
         <NavbarActionsLinks>
           <NavbarActionLink text="Home"/>
           <NavbarActionLink text="Services"/>
@@ -42,7 +42,7 @@ export default function Home() {
       {/* <div className="bg-black w-80 rounded-ee">
           <Widget/>
       </div> */}
-    </>
+    </div>
 
   );
 }
